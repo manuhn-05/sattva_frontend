@@ -15,14 +15,15 @@ import SpotifyImage from '../assets/images/client/spotify.svg';
 
 import Services from "../component/Services";
 import About from "../component/About";
-import Pricing from "../component/Pricing";
+// import Pricing from "../component/Pricing";
 import Blog from "../component/Blog";
 import Contact from "../component/Contact";
-import Footer from "../component/Footer";
+// import Footer from "../component/Footer";
 import Portfolio from "../component/Portfolio";
 import Review from "../component/Testimonial";
-import Switcher from "../component/Switcher";
-import Navbar from "../component/navbar";
+// import Switcher from "../component/Switcher";
+// import Navbar from "../component/navbar";
+import StartYourFreeTrial from "../component/StartYourFreeTrial";
 
 /**
  * Index eight 
@@ -34,7 +35,7 @@ export default function IndexEight() {
     return (
         <>
             <div>
-                <Navbar navdark={true} />
+                {/* <Navbar navdark={true} /> */}
                 <section
                     style={{ backgroundImage: `url(${backgroundImage})` }}
                     className="py-36 md:h-screen h-auto items-center flex relative bg-bottom bg-cover active" id="home">
@@ -150,15 +151,16 @@ export default function IndexEight() {
                         <style jsx>{`@keyframes scroll {0% {transform: translateX(0);}100% {transform: translateX(-50%);}}`}</style>
                     </div>
                 </div>
-
                 {/* Contact section */}
                 <Contact />
+                {/*  Start Your Free Trial Component */}
+                <StartYourFreeTrial />
+
 
                 {/* Footer section */}
-                <Footer />
 
                 {/* Switcher section */}
-                <Switcher />
+                {/* <Switcher /> */}
             </div>
 
         </>

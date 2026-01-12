@@ -26,6 +26,11 @@ import Loader from "./component/Loader";
 import BlogDetail from "./pages/blog-detail.js";
 import PortfolioDetail from "./pages/portfolio-detail.js";
 import AboutUs from "./pages/AboutUs.js";
+import Navbar from "./component/navbar.js";
+import Switcher from "./component/Switcher.js";
+import Footer from "./component/Footer.js";
+
+
 
 export default function App() {
 
@@ -43,6 +48,7 @@ export default function App() {
 
   return (
     <>
+      <Navbar navdark={true} />
       {loading && <Loader />}
       <Routes>
         <Route path="/" element={<IndexEight />} />
@@ -62,6 +68,9 @@ export default function App() {
         <Route path="/portfolio-detail" element={<PortfolioDetail/>} />
         <Route path="/about" element={<AboutUs/>} />
       </Routes>
+      <Footer />
+
+      <Switcher />
     </>
   );
 

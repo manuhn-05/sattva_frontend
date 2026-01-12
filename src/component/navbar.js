@@ -31,7 +31,7 @@ export default function Navbar({ navdark }) {
       navbar.classList.remove("is-sticky");
     }
   }
-  console.log(navdark);
+
   return (
     <>
       <nav className="navbar" id="navbar">
@@ -145,8 +145,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="/"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <span className="nav-link">Home</span>
@@ -154,8 +154,8 @@ export default function Navbar({ navdark }) {
               <Link2
                 className="nav-item"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
                 to="/about"
               >
@@ -165,8 +165,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="features"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <span className="nav-link">Learning & insights</span>
@@ -175,8 +175,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="portfolio"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <span className="nav-link">Products</span>
@@ -185,8 +185,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="testi"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <span className="nav-link">Our Team</span>
@@ -195,8 +195,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="pricing"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <button className="nav-link text-white rounded-lg transition bg-primary hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-primary/50 box-border border border-transparent font-medium leading-5 rounded-base text-sm px-4 py-1 m-2 text-center inline-flex items-center dark:focus:ring-primary/55">Login</button>
@@ -205,8 +205,8 @@ export default function Navbar({ navdark }) {
                 className="nav-item"
                 to="blog"
                 activeclassname="active"
-                spy={true}
-                smooth={true}
+                spy={"true"}
+                smooth={"true"}
                 duration={500}
               >
                 <button className="nav-link text-white rounded-lg transition bg-primary hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-primary/50 box-border border border-transparent font-medium leading-5 rounded-base text-sm px-4 py-1 m-2 text-center inline-flex items-center dark:focus:ring-primary/55">Get started</button>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import LogoLight from "../assets/images/logo-light.png";
+import LogoLight from "../assets/images/sattva-logo.png";
 
 export default function Footer() {
 
@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="grid md:grid-cols-12 items-center">
                         <div className="md:col-span-3">
                             <Link to="#" className="logo-footer">
-                                <img src={LogoLight} className="md:ms-0 mx-auto" alt="" />
+                                <img src={LogoLight} className="md:ms-0 mx-auto w-[60%]" alt="" />
                             </Link>
                         </div>
 
