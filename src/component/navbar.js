@@ -163,7 +163,7 @@ export default function Navbar({ navdark }) {
               </Link2>
               <Link2
                 className="nav-item"
-                to="features"
+                to="/learning-and-insights"
                 activeclassname="active"
                 spy={"true"}
                 smooth={"true"}

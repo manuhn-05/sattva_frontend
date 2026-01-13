@@ -14,6 +14,8 @@ import PaypalImage from '../assets/images/client/paypal.svg';
 import ShopifyImage from '../assets/images/client/shopify.svg';
 import SpotifyImage from '../assets/images/client/spotify.svg';
 
+
+
 export default function Services({isHeadingNeeded = true}) {
   const team = [
     {

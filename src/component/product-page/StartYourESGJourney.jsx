@@ -7,7 +7,7 @@ import WhySattvaLogo from "../../assets/images/bg/laptop.png";
 
 const StartYourESGJourney = () => {
   return (
-    <article className={`min-h-[calc(100vh-100px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-[#0F172A] `}>
+    <article className={`min-h-[calc(100vh-100px)] flex flex-col items-center p-4 md:py-32 bg-white dark:bg-[#0F172A]`}>
       <div className="container relative bg-green-600/50 p-[3%] rounded-xl ">
         <div className="grid md:grid-cols-12 grid-cols-1 justify-center items-center gap-16">
           <div className="lg:col-span-6 md:col-span-6">
@@ -70,4 +70,4 @@ const StartYourESGJourney = () => {
   )
 }
 
-export default StartYourESGJourney
+export default StartYourESGJourney;

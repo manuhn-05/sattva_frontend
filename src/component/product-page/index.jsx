@@ -16,7 +16,7 @@ const ProductsComponent = () => {
       <SattvaProductPage />
       <StartYourESGJourney />
 
-      <div className='text-[0.425em] bg-gray-50 dark:bg-[#0F172A] '>
+      <div className='text-[0.425em] bg-gray-50 dark:bg-[#0F172A]'>
         <Blog text={''} h3Heading={'Academy Blogs from Learning & Insights'} card_bg={'dark:bg-slate-800 border'} />
 
       </div>

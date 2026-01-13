@@ -20,15 +20,22 @@ import PaypalImage from '../assets/images/client/paypal.svg';
 import ShopifyImage from '../assets/images/client/shopify.svg';
 
 import UserImage from "../assets/images/about/Jeremie_Joos.webp"
-import UserImage2 from "../assets/images/about/user1.webp"
+import UserImage2 from "../assets/images/about/user1.webp";
+
 import Client1 from "../assets/images/client/01.jpg";
 import Client2 from "../assets/images/client/02.jpg";
-
 import Client3 from "../assets/images/client/03.jpg";
-
 import Client4 from "../assets/images/client/04.jpg";
 
 
+import ProductSustainable from "../assets/images/product/sustainable.jpg";
+import ProductEhs from "../assets/images/product/ehs.png";
+import ProductHealthSafety from "../assets/images/product/health_safety.png";
+import ProductAccident from "../assets/images/product/accident.png";
+import ProductChemical from "../assets/images/product/chemical.png";
+import ProductDocument from "../assets/images/product/document.png";
+
+const DummyUser = 'https://imgs.search.brave.com/HHv4G66L_oIc59sq5PJHB191jYrN0Wh0OR9z0neEfec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIw/ODQ3NTE5Ni92ZWN0/b3IvdXNlci1pY29u/LXJlcHJlc2VudGlu/Zy1wcm9maWxlLWFj/Y291bnQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUpFOS1t/UEZiamRPMWR1aEZO/SE1TakZnZWtvQVdD/Q05WRnRCQW1LSDdS/TTg9'
 
 
 
@@ -273,7 +280,7 @@ export const blogData = [
         role: "BOD",
         name: "Ravi Kumar",
         designation: "Board of Directors",
-        image: "/team/ravi-kumar.jpg",
+        image: DummyUser,
         linkedin: "https://linkedin.com/in/ravikumar"
       },
       {
@@ -281,7 +288,7 @@ export const blogData = [
         role: "CTO",
         name: "Ananya Sharma",
         designation: "Chief Technology Officer",
-        image: "/team/ananya-sharma.jpg",
+        image: DummyUser,
         linkedin: "https://linkedin.com/in/ananyasharma"
       },
       {
@@ -289,7 +296,7 @@ export const blogData = [
         role: "Program Manager",
         name: "Suresh Patil",
         designation: "Program Manager",
-        image: "/team/suresh-patil.jpg",
+        image: DummyUser,
         linkedin: "https://linkedin.com/in/sureshpatil"
       },
       {
@@ -297,7 +304,7 @@ export const blogData = [
         role: "Senior ESG Associate",
         name: "Neha Verma",
         designation: "Senior ESG Associate",
-        image: "/team/neha-verma.jpg",
+        image:DummyUser,
         linkedin: "https://linkedin.com/in/nehaverma"
       }
     ],
@@ -307,37 +314,37 @@ export const blogData = [
         id: 5,
         name: "Amit Rao",
         role: "ESG Analyst",
-        image: "/team/amit-rao.jpg"
+        image: DummyUser,
       },
       {
         id: 6,
         name: "Priya Nair",
         role: "Sustainability Consultant",
-        image: "/team/priya-nair.jpg"
+        image: DummyUser,
       },
       {
         id: 7,
         name: "Karthik R",
         role: "Data Analyst",
-        image: "/team/karthik-r.jpg"
+        image: DummyUser,
       },
       {
         id: 8,
         name: "Sneha Iyer",
         role: "ESG Research Associate",
-        image: "/team/sneha-iyer.jpg"
+        image: DummyUser,
       },
       {
         id: 9,
         name: "Rahul Mehta",
         role: "Operations Executive",
-        image: "/team/rahul-mehta.jpg"
+        image: DummyUser,
       },
       {
         id: 10,
         name: "Divya Kulkarni",
         role: "Project Coordinator",
-        image: "/team/divya-kulkarni.jpg"
+        image: DummyUser,
       }
     ]
   };
@@ -417,3 +424,112 @@ export const blogData = [
             driving greater efficiency and transparency across our operations.`,
     },
 ];
+
+
+export const productCardData1= {
+  title : "Sustainability",
+  description : `This module of SATTVA has been specifically designed to respond organizations to different global reporting frameworks and initiatives 
+  and easily align with the increased investors and stakeholder's interest. 
+  It enables you to collect, track and manage your Sustainability Activities, Commitments, Certificates, Impacts, Reports, SDGs Governance, and ESG in one place.`,
+  imgSrc : ProductSustainable,
+  listItems : [
+    { id : "1", title : "Identify opportunities"},
+    { id : "2", title : "Centralize ESG Data"},
+    { id : "3", title : "Maintain a secure data"},
+    { id : "4", title : "Communicate"},
+  ]
+}
+
+export const productCardData2= {
+  title : "Environment Management",
+  description : `This Module helps your organization to ensure compliance within EMS statutory regulations and reduce environmental impact. 
+  It Enables with a digital platform that collect the data and sets targets to reduce, manage, monitor and track the performance of 
+  various aspects like carbon footprint derivation, energy usage, waste, water, waste water management and air emission on a real 
+  time basis with wide range of environmental matrix.`,
+  imgSrc : ProductEhs,
+  listItems : [
+    { id : "1", title : "Ensure compliance"},
+    { id : "2", title : "Help cut emissions"},
+    { id : "3", title : "Reduce, Manage, Monitor"},
+    { id : "4", title : "Accounting"},
+    { id : "5", title : "Comprehensive performance"},
+    { id : "6", title : "Identify opportunities"},
+
+
+  ]
+}
+
+export const productCardData3= {
+  title : "Hazard & Risk Management",
+  description : `Hazard & Risk Management Module of SATTVA™ facilitates the identification, analysis, monitoring, 
+  review, and treatment of both existing and potential hazards and risks throughout your organization.
+   This user-friendly tool will give your organization a strategic advantage in managing, mitigating, and preventing Operational risk in your business.`,
+  imgSrc : ProductHealthSafety,
+  listItems : [
+    { id : "1", title : "Hazard & Risk"},
+    { id : "2", title : "Proactive Measures"},
+    { id : "3", title : "Centralize and streamline"},
+    { id : "4", title : "Review and treatment"},
+    { id : "5", title : "Strategic advantages"},
+    { id : "6", title : "Improves loss prevention"},
+  ]
+}
+
+export const productCardData4= {
+  title : "Accident & Incident",
+  description : `Accident & Incident management module of SATTVA is a comprehensive and user-friendly tool for organizations to record, 
+  track and report workplace environment, health and safety incidents. Easily log incidents, identify root causes, implement corrective 
+  and preventive actions and maintain an auditable, real-time record of the detection and mitigation of every EHS incident organization-wide.`,
+  imgSrc : ProductAccident,
+  listItems : [
+    { id : "1", title : "Reactive measure"},
+    { id : "2", title : "Accident / incident managing"},
+    { id : "3", title : "Financial advantageous"},
+    { id : "4", title : "Monitoring Mechanism"},
+    { id : "5", title : "Real time monitoring"},
+    { id : "6", title : "Reduce risk"},
+    { id : "7", title : "Comply"},
+
+    { id : "8", title : "Root cause analysis"},
+    { id : "9", title : "Manage or eliminate"},
+
+  ]
+}
+
+export const productCardData5= {
+  title : "Chemical Management",
+  description : `The Chemical Management Module of SATTVA has been designed to ensure that activities involving the use of chemical materials be performed 
+  in a way to protect employee of the organisation, general public from chemical hazards & health the importance to control and manage the risk associated with it, 
+  Also, ensures activities are conducted in accordance with statutory regulations.`,
+  imgSrc : ProductChemical,
+  listItems : [
+    { id : "1", title : "Chemical management"},
+    { id : "2", title : "Information in one location"},
+    { id : "3", title : "Inventory management"},
+    { id : "4", title : "Safety data sheets in one place"},
+    { id : "5", title : "Real time information"},
+    { id : "6", title : "Provide easy access"},
+    { id : "7", title : "Access relevant SDS"},
+
+    { id : "8", title : "Approval process"},
+    { id : "9", title : "Confirm your SDS"},
+
+  ]
+}
+
+export const productCardData6= {
+  title : "Document Management",
+  description : `This module of SATTVA has been specifically designed to act as a central database of your organization's legal & Statutory documents, 
+  policy and procedures. Schedule policy reviews, renew the legal documents, and maintain the ISO requirements all from within a centrally accessible tool. 
+  Also, With this application you can easily maintain an accurate and accessible inventory of all of your safety,environment & Social documents.`,
+  imgSrc : ProductDocument,
+  listItems : [
+    { id : "1", title : "Centralized Mechanism"},
+    { id : "2", title : "Digitalize"},
+    { id : "3", title : "Up-to-date documentation"},
+    { id : "4", title : "Ensure compliance"},
+    { id : "5", title : "Keep any organization fit"},
+
+
+  ]
+}
