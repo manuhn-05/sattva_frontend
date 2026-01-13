@@ -14,7 +14,7 @@ import PaypalImage from '../assets/images/client/paypal.svg';
 import ShopifyImage from '../assets/images/client/shopify.svg';
 import SpotifyImage from '../assets/images/client/spotify.svg';
 
-export default function Services() {
+export default function Services({isHeadingNeeded = true}) {
   const team = [
     {
       title: 'Sustainability Applications',
@@ -60,16 +60,21 @@ export default function Services() {
       {/* Start */}
       <section className="relative md:py-24 py-16 active" id="features">
         <div className="container lg mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">
-            <div>
-              <h6 className="text-green-600 text-base font-medium uppercase mb-2">What We Do?</h6>
-              <h3 className="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">Best Services for Your Business</h3>
+          {
+            isHeadingNeeded && (
+              <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">
+              <div>
+                <h6 className="text-green-600 text-base font-medium uppercase mb-2">What We Do?</h6>
+                <h3 className="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">Best Services for Your Business</h3>
+              </div>
+  
+              <div>
+                <p className="text-slate-500 dark:text-slate-300 max-w-xl">Enhance your company’s sustainability performance that provides automated reporting, management and deep analytics for ESG data.</p>
+              </div>
             </div>
-
-            <div>
-              <p className="text-slate-500 dark:text-slate-300 max-w-xl">Enhance your company’s sustainability performance that provides automated reporting, management and deep analytics for ESG data.</p>
-            </div>
-          </div>
+            )
+          }
+         
 
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
 

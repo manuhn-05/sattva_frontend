@@ -30,7 +30,7 @@ const ESGJourneyWithSattva = () => {
 
 
     return (
-        <section className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-slate-800'>
+        <section className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-[#0F172A]'>
             <div className="text-left md:text-center">
                 <h6 className="text-green-600 text-base font-medium uppercase mb-2">Chosen by Industry Leaders</h6>
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">Trusted by companies to simplify and strengthen their ESG journey with Sattva.</h3>

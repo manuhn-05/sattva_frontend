@@ -30,6 +30,7 @@ import Navbar from "./component/navbar.js";
 import Switcher from "./component/Switcher.js";
 import Footer from "./component/Footer.js";
 import OurTeamComponent from "./component/our-team/index.jsx";
+import ProductsComponent from "./component/product-page/index.jsx";
 
 
 
@@ -67,8 +68,11 @@ export default function App() {
         <Route path="/blog-detail" element={<BlogDetail/>} />
         <Route path="/blog-detail/:id" element={<BlogDetail/>} />
         <Route path="/portfolio-detail" element={<PortfolioDetail/>} />
+        
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/our-team" element={<OurTeamComponent/>} />
+        <Route path="/products" element={<ProductsComponent/>} />
+
 
       </Routes>
       <Footer />

@@ -3,7 +3,7 @@ import { AWARDS_AND_RECOGNITION } from '../../data/data'
 
 const AwardsAndRecognition = () => {
   return (
-    <article className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-slate-800'>
+    <article className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-[#0F172A]'>
       <section className={`container`}>
         <div className="text-left md:text-center">
           <h6 className="text-green-600 text-base font-medium uppercase mb-2">Awards and Recognition.</h6>
@@ -15,7 +15,7 @@ const AwardsAndRecognition = () => {
 
             AWARDS_AND_RECOGNITION?.map((award) => {
               return (
-                <div key={award.id} className={`bg-white p-[2%] dark:bg-slate-800 rounded-lg shadow 
+                <div key={award.id} className={`bg-white p-[2%] dark:bg-[#0F172A] rounded-lg shadow 
                 shadow-slate-200 dark:shadow-slate-800 overflow-hidden max-w-[350px] `}>
                   <div className='w-[90%] mx-auto mt-[5%]'>
                     <img src={award.imageSrc} alt={award.heading} />

@@ -8,7 +8,7 @@ const ESGEcoSystem = () => {
     const [selectedPartner, setSelectedPartner] = React.useState(PARTNERS_NETWORK[0]);
     // const styles=`button border border-gray-400 rounded-lg px-[5%] py-[1%] w-[30%]`
     return (
-        <section className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-28  dark:bg-slate-800'>
+        <section className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-28  dark:bg-[#0F172A]'>
             <div className="text-left md:text-center">
                 <h6 className="text-green-600 text-base font-medium uppercase mb-2">Built on Strong Partnerships</h6>
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">We are part of a strong and trusted ESG ecosystem.</h3>

@@ -55,12 +55,7 @@ const WhySattva = () => {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-hidden w-full py-6">
-                    {/* Wrapper with relative width */}
-
-                    {/* Inline CSS for animation */}
-                    <style jsx={"true"}>{`@keyframes scroll {0% {transform: translateX(0);}100% {transform: translateX(-50%);}}`}</style>
-                </div>
+         
 
             </div>
         </main>

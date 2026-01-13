@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const BookADemo = () => {
   return (
-    <article className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-slate-800'>
+    <article className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-[#0F172A]'>
       <div className={`text-left md:text-center w-full`}>
         <h6 className="text-green-600 text-base font-medium uppercase mb-2">Book a Demo and See Sattva in Action</h6>
         <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">Discover a powerful ESG management and sustainability platform.</h3>

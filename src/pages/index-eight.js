@@ -124,7 +124,7 @@ export default function IndexEight() {
                 {/* <Pricing /> */}
 
                 {/* Blog section */}
-                <Blog />
+                <Blog text={'Learn more about us'} h3Heading={'Latest News'} />
 
                 <div className="container">
                     <div className="grid grid-cols-1 pb-8 text-center">
