@@ -2,9 +2,9 @@ import blog1 from '../assets/images/blog/1.jpg'
 import blog2 from '../assets/images/blog/2.jpg'
 import blog3 from '../assets/images/blog/3.jpg'
 
-import awards1 from "../assets/images/about/whyuswebsite1.webp";
-import awards2 from "../assets/images/about/whyuswebsite2.webp";
-import awards3 from "../assets/images/about/whyuswebsite3.webp";
+import awards1 from "../assets/images/about/awards/sustainableNXT.png";
+import awards2 from "../assets/images/about/awards/greadtindianESG.png";
+import awards3 from "../assets/images/about/awards/techforgood.png";
 
 
 import avatar1 from "../assets/images/client/shivkumar_jvs.jpg";
@@ -13,6 +13,25 @@ import avatar3 from "../assets/images/client/baiju_jerash.jpg";
 import avatar4 from "../assets/images/client/sanal_kumar.webp";
 
 import Capegemini from "../assets/images/about/capegemini.svg";
+import AmazonImage from '../assets/images/client/amazon.svg';
+import GoogleImage from '../assets/images/client/google.svg';
+import LenovoImage from '../assets/images/client/lenovo.svg';
+import PaypalImage from '../assets/images/client/paypal.svg';
+import ShopifyImage from '../assets/images/client/shopify.svg';
+
+import UserImage from "../assets/images/about/Jeremie_Joos.webp"
+import UserImage2 from "../assets/images/about/user1.webp"
+import Client1 from "../assets/images/client/01.jpg";
+import Client2 from "../assets/images/client/02.jpg";
+
+import Client3 from "../assets/images/client/03.jpg";
+
+import Client4 from "../assets/images/client/04.jpg";
+
+
+
+
+
 
 export const blogData = [
     {
@@ -87,87 +106,72 @@ export const blogData = [
 
   export const PARTNERS_NETWORK = [
     {
-      id : 'capegemini-1',
-      src  : Capegemini,
-      description : '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'capegemini-1',
+      src: Capegemini,
+      description:
+        '“Partnering with Sattva enables consulting-led organizations to deliver structured, data-driven ESG insights with confidence and consistency.”',
+      person: {
+        image: UserImage,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
     {
-      id : 'capegemini-2',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'amazon-2',
+      src: AmazonImage,
+      description:
+        '“Sattva helps large-scale, cloud-first enterprises manage ESG data efficiently while supporting scalability and operational excellence.”',
+      person: {
+        image: Client1,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
     {
-      id : 'capegemini-3',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'google-3',
+      src: GoogleImage,
+      description:
+        '“With Sattva, organizations can turn complex sustainability data into meaningful insights that support transparency and innovation.”',
+      person: {
+        image: UserImage2,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
     {
-      id : 'capegemini-4',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'lenovo-4',
+      src: LenovoImage,
+      description:
+        '“Sattva enables global enterprises to align ESG reporting with business operations across regions and supply chains.”',
+      person: {
+        image: Client2,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
     {
-      id : 'capegemini-5',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'paypal-5',
+      src: PaypalImage,
+      description:
+        '“By working with Sattva, organizations can strengthen ESG governance while maintaining trust, accountability, and compliance.”',
+      person: {
+        image: Client3,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
     {
-      id : 'capegemini-6',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
+      id: 'shopify-6',
+      src: ShopifyImage,
+      description:
+        '“Sattva supports fast-growing digital businesses in building ESG practices that scale alongside innovation and growth.”',
+      person: {
+        image: Client4,
+        name: 'Jérémie Joos',
+        designation: 'Co-Head of ESG Center of Excellence',
       },
     },
-    {
-      id : 'capegemini-7',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
-      },
-    },
-    {
-      id : 'capegemini-8',
-      src  : Capegemini,
-      description :   '“By working with tech partners like Sweep, large organizations can streamline the collection, monitoring, and reporting of their non financial data in one single place.”',
-      person : {
-        image : Capegemini,
-        name : "Jérémie Joos",
-        designation : "Co-Head of ESG Center of Excellence",
-      },
-    },
-
-  ]
+  ];
   
 
   export const BOOK_A_DEMO_REQUESTS_TYPE = [
@@ -343,44 +347,26 @@ export const blogData = [
     {
       "id": 1,
       imageSrc : awards1,
-      "heading": "EcoSphere Recognized as a Top Performer in Global Sustainability Platforms 2025",
-      "description": `This recognition underscores EcoSphere's strength as an end-to-end sustainability intelligence platform, enabling organizations to manage ESG data, 
-      measure impact, and drive informed decision-making across operations.`,
-      "keyHighlightsTitle": "Key highlights from the industry report:",
-      "highlights": [
-        "Centralized ESG data governance",
-        "Advanced impact analytics & forecasting",
-        "Cross-functional sustainability reporting",
-        "Risk and opportunity assessment frameworks"
-      ]
+      "heading": `The SustainableNXT Award Winner`,
+      "description": `The SustainableNXT Award, judges by an independent expert panel, 
+      recognize and showcase leading sustainability innovations and innovators across the supply chain`,
+   
     },
     {
       "id": 2,
       imageSrc : awards2,
 
-      "heading": "GreenLedger Named a Leading ESG Technology Provider by Independent Analysts 2025",
-      "description": `GreenLedger was acknowledged for its robust ESG reporting and compliance capabilities, helping enterprises align sustainability goals with measurable business outcomes through a structured, scalable platform.`,
-      "keyHighlightsTitle": "Key highlights from the analyst review:",
-      "highlights": [
-        "Automated regulatory disclosures",
-        "Carbon and resource tracking tools",
-        "Scenario-based performance insights",
-        "Enterprise-ready audit trails"
-      ]
+      "heading": "Great Indian ESG SaaS Platform",
+      "description": `We're honored to be named the Great Indian ESG SaaS Platform of the Year at the ESG & Cleantech Summit & Awards 2025! . Thank you for supporting our mission to make ESG accessible and impactful.`,
+
     },
     {
       "id": 3,
       imageSrc : awards3,
 
-      "heading": "ImpactIQ Recognized for Excellence in ESG Data & Impact Management Solutions",
-      "description": "This recognition highlights ImpactIQ's ability to simplify complex ESG workflows, empowering organizations to track performance, manage risks, and translate sustainability data into actionable insights.",
-      "keyHighlightsTitle": "Key highlights from the evaluation:",
-      "highlights": [
-        "End-to-end ESG lifecycle management",
-        "Stakeholder and value-chain engagement",
-        "Materiality and risk prioritization tools",
-        "Data-driven sustainability dashboards"
-      ]
+      "heading": "Tech for Good Champion of the year",
+      "description": `We have been honored with the “Tech for Good Champion of the Year” award at SustainableNXT 2025, presented by Apparel Resources.`,
+   
     }
   ]
   

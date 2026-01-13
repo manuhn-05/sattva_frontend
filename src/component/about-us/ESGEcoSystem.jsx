@@ -6,7 +6,7 @@ import UserImage from "../../assets/images/about/Jeremie_Joos.webp"
 const ESGEcoSystem = () => {
     const [activetab, setActivetab] = React.useState('partners-network');
     const [selectedPartner, setSelectedPartner] = React.useState(PARTNERS_NETWORK[0]);
-    const styles=`button border border-gray-400 rounded-lg px-[5%] py-[1%] w-[30%]`
+    // const styles=`button border border-gray-400 rounded-lg px-[5%] py-[1%] w-[30%]`
     return (
         <section className='min-h-[calc(100vh-200px)] flex flex-col items-center p-4 md:py-28  dark:bg-slate-800'>
             <div className="text-left md:text-center">
@@ -14,7 +14,7 @@ const ESGEcoSystem = () => {
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">We are part of a strong and trusted ESG ecosystem.</h3>
             </div>
             <div className="container ">
-                <div className='flex justify-evenly'>
+                {/* <div className='flex justify-evenly'>
                     <button onClick={()=>setActivetab('partners-network')} className={`${styles} ${activetab==='partners-network'?'bg-blue-600 text-white':''}`}>
                         Partners Network
                     </button>
@@ -24,7 +24,7 @@ const ESGEcoSystem = () => {
                     <button  onClick={()=>setActivetab('impact')}  className={`${styles} ${activetab==='impact'?'bg-blue-600 text-white':''}`}>
                         Impact
                     </button>
-                </div>
+                </div> */}
 
                 <section className='mt-[5%]'> 
                     {
@@ -77,7 +77,7 @@ const ESGEcoSystem = () => {
                     </div>
                     <div className='flex justify-between mt-[5%]'>
                         <div className='flex items-center gap-4'>
-                            <img src={UserImage} alt="User Profile Pic" className='w-24 rounded-full' />
+                            <img src={selectedPartner?.person?.image} alt="User Profile Pic" className='w-24 rounded-full' />
                             <p className='flex flex-col text-[0.9em]'>
                                 <span>{selectedPartner?.person?.name}</span>
                                 <span>{selectedPartner?.person?.designation}</span>

@@ -4,7 +4,8 @@ import TeamCard from './TeamCard';
 
 const OurTeamComponent = () => {
     return (
-        <article className='min-h-[calc(100vh-120px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-slate-800'>
+        <article className={`min-h-[calc(100vh-120px)] flex flex-col items-center p-4 md:py-32 bg-gray-50 dark:bg-slate-800
+        bg-gradient-to-b from-green-600/20 dark:from-green-600/40 via-green-600/10 dark:via-green-600/20 to-transparent`}>
             <div className="container">
                 {/* MAIN PILLARS */}
             <div className="text-left md:text-center">

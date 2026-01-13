@@ -17,6 +17,7 @@ const ESGJourneyWithSattva = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        
     };
     const mobileSettings = {
         dots: false,
