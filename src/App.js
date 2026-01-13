@@ -29,6 +29,7 @@ import AboutUs from "./pages/AboutUs.js";
 import Navbar from "./component/navbar.js";
 import Switcher from "./component/Switcher.js";
 import Footer from "./component/Footer.js";
+import OurTeamComponent from "./component/our-team/index.jsx";
 
 
 
@@ -67,6 +68,8 @@ export default function App() {
         <Route path="/blog-detail/:id" element={<BlogDetail/>} />
         <Route path="/portfolio-detail" element={<PortfolioDetail/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/our-team" element={<OurTeamComponent/>} />
+
       </Routes>
       <Footer />
 

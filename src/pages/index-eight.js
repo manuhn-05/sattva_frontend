@@ -24,6 +24,7 @@ import Review from "../component/Testimonial";
 // import Switcher from "../component/Switcher";
 // import Navbar from "../component/navbar";
 import StartYourFreeTrial from "../component/StartYourFreeTrial";
+import SattvaPresence from "../component/SattvaPresence";
 
 /**
  * Index eight 
@@ -106,6 +107,9 @@ export default function IndexEight() {
 
                 {/* About section */}
                 <About />
+
+                {/* Sattva Presence section */}
+                <SattvaPresence />
 
                 {/* Service section */}
                 <Services />

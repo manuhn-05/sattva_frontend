@@ -14,7 +14,7 @@ const ESGJourneyWithSattva = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 2.5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
     };

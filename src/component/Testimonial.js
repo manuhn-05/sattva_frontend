@@ -1,44 +1,12 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { CLIENT_REVIEW } from "../data/data";
 
-import avatar1 from "../assets/images/client/01.jpg";
-import avatar2 from "../assets/images/client/02.jpg";
-import avatar3 from "../assets/images/client/03.jpg";
+
 
 export default function Review() {
-    const review = [
-        {
-            id: "1",
-            profile: avatar1,
-            name: "Mr.VS Shivkumar",
-            title: "Much more easier now",
-            designation: "Manager - Systems & Certifications at JVS, India",
-            description:
-                "Being the Management Representative of my Company, I have to frequently face audits in all our Factories. We have been using SATTVA™️, the ESG tool from REDEFINE for the last 18 months and I find that so much of our audit preparation work is taken care of by this tool. Also documentation and followup on corrective action is much more easier now.",
-        },
-        {
-            id: "2",
-            profile: avatar2,
-            name: "Mr. Tony",
-            title:
-                "Experiencing better levels of safety and compliance in our factories it!",
-            designation:
-                "Managing Director at Bengal Hurricane Group, Bangladesh",
-            description:
-                "From the time that we have subscribed to SATTVA™ software of REDEFINE, we are experiencing better levels of safety and compliance in our factories. Earlier on we had to depend on many books, registers and xl sheets to capture data on EHS, but now with SATTVA™ all the paperwork has been eliminated and it is also easier for us to face audits as data is readily available. Due to this, the Safety, Environment and Compliance officers in our Factories can spend more time inside the factory and less time with documentation. SATTVA™ also generates automated reports and mails to key people in my Factory, thus keeping us all updated at all times.",
-        },
-        {
-            id: "3",
-            profile: avatar3,
-            name: "Mr.Baiju Chellemma",
-            title: "Adding value to work",
-            designation:
-                "General Manager at Jerash Garments and Fashion Manufacturing Co. Ltd, Jordan",
-            description:
-                "We have installed SATTVA™ the ESG software developed by REDEFINE. My Compliance Team and Safety Officers confirm that SATTVA™ software is adding value to their work by helping them capture relevant data pertaining to environment, safety and social aspects. SATTVA™ also automatically generates reports that I receive by mail, thus giving me constant updates on the performance of the EHS Team in my Factory and also the level of health and safety in my factory.",
-        },
-    ];
+   
 
     const responsive = {
         superLargeDesktop: { breakpoint: { max: 4000, min: 1024 }, items: 3 },
@@ -79,7 +47,7 @@ export default function Review() {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     pauseOnHover={true}
                 >
-                    {review.map((el) => (
+                    {CLIENT_REVIEW.map((el) => (
                         <div
                             key={el.id}
                             className="m-4 bg-white dark:bg-slate-900 shadow-xl hover:shadow-2xl rounded-2xl p-8 flex flex-col h-full transition-transform transform hover:-translate-y-1 duration-300"

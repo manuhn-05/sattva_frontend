@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import UserImage from "../../assets/images/about/user1.webp"
-import UserCompany from "../../assets/images/about/user1-comp1.webp"
+
 
 
 const ESGJourneyCard = ({ item }) => {
     const [viewMore, setViewMore] = useState(false);
 
     return (
-        <div className='border-gray-400 border-[0.015em] shadow-lg mx-[3%] bg-white p-[3%] rounded-md'>
+        <div className='border-gray-400 border-[0.015em] shadow-lg mx-[3%] bg-white dark:bg-slate-600 p-[3%] rounded-md lg:min-h-[15vw] hover:shadow-2xl hover:scale-[0.95] duration-75'>
             <div>
                 <h3 className='text-[1em] font-bold mb-[2%]'>{item?.title}</h3>
                 <p className='text-[0.95em]'> 
@@ -16,14 +15,14 @@ const ESGJourneyCard = ({ item }) => {
                 </p>
             </div>
             <div className='mt-[1.5%] flex justify-between'>
-                <div className='flex items-center w-[60%]'>
-                    <img src={UserImage} alt="" className='h-16 w-16 rounded-full' />
+                <div className='flex items-center w-[80%]'>
+                    <img src={item?.profile} alt="" className='h-16 w-16 rounded-full' />
                     <p className='text-[0.85em] flex flex-col mx-[2%]'>
-                        <span>{item?.person?.name}</span>
-                        <span>{item?.person?.designation}</span>
+                        <span>{item?.name}</span>
+                        <span>{item?.designation}</span>
                     </p>
                 </div>
-                <img src={UserCompany} alt="" className='w-28' />
+                {/* <img src={item?.profile} alt="" className='w-28' /> */}
             </div>
         </div>
     )

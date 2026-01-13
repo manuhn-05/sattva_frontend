@@ -2,7 +2,17 @@ import blog1 from '../assets/images/blog/1.jpg'
 import blog2 from '../assets/images/blog/2.jpg'
 import blog3 from '../assets/images/blog/3.jpg'
 
-import Capegemini from "../assets/images/about/capegemini.svg"
+import awards1 from "../assets/images/about/whyuswebsite1.webp";
+import awards2 from "../assets/images/about/whyuswebsite2.webp";
+import awards3 from "../assets/images/about/whyuswebsite3.webp";
+
+
+import avatar1 from "../assets/images/client/shivkumar_jvs.jpg";
+import avatar2 from "../assets/images/client/tony_hurricane.jpeg";
+import avatar3 from "../assets/images/client/baiju_jerash.jpg";
+import avatar4 from "../assets/images/client/sanal_kumar.webp";
+
+import Capegemini from "../assets/images/about/capegemini.svg";
 
 export const blogData = [
     {
@@ -250,9 +260,174 @@ export const blogData = [
     { "id" : "10", "label" : "Media", "value" : "Media" },
 
 
-
-
-
-
-
   ]
+
+  export const OUR_TEAM = {
+    leadership: [
+      {
+        id: 1,
+        role: "BOD",
+        name: "Ravi Kumar",
+        designation: "Board of Directors",
+        image: "/team/ravi-kumar.jpg",
+        linkedin: "https://linkedin.com/in/ravikumar"
+      },
+      {
+        id: 2,
+        role: "CTO",
+        name: "Ananya Sharma",
+        designation: "Chief Technology Officer",
+        image: "/team/ananya-sharma.jpg",
+        linkedin: "https://linkedin.com/in/ananyasharma"
+      },
+      {
+        id: 3,
+        role: "Program Manager",
+        name: "Suresh Patil",
+        designation: "Program Manager",
+        image: "/team/suresh-patil.jpg",
+        linkedin: "https://linkedin.com/in/sureshpatil"
+      },
+      {
+        id: 4,
+        role: "Senior ESG Associate",
+        name: "Neha Verma",
+        designation: "Senior ESG Associate",
+        image: "/team/neha-verma.jpg",
+        linkedin: "https://linkedin.com/in/nehaverma"
+      }
+    ],
+  
+    teamMembers: [
+      {
+        id: 5,
+        name: "Amit Rao",
+        role: "ESG Analyst",
+        image: "/team/amit-rao.jpg"
+      },
+      {
+        id: 6,
+        name: "Priya Nair",
+        role: "Sustainability Consultant",
+        image: "/team/priya-nair.jpg"
+      },
+      {
+        id: 7,
+        name: "Karthik R",
+        role: "Data Analyst",
+        image: "/team/karthik-r.jpg"
+      },
+      {
+        id: 8,
+        name: "Sneha Iyer",
+        role: "ESG Research Associate",
+        image: "/team/sneha-iyer.jpg"
+      },
+      {
+        id: 9,
+        name: "Rahul Mehta",
+        role: "Operations Executive",
+        image: "/team/rahul-mehta.jpg"
+      },
+      {
+        id: 10,
+        name: "Divya Kulkarni",
+        role: "Project Coordinator",
+        image: "/team/divya-kulkarni.jpg"
+      }
+    ]
+  };
+  
+
+  export const AWARDS_AND_RECOGNITION = [
+    {
+      "id": 1,
+      imageSrc : awards1,
+      "heading": "EcoSphere Recognized as a Top Performer in Global Sustainability Platforms 2025",
+      "description": `This recognition underscores EcoSphere's strength as an end-to-end sustainability intelligence platform, enabling organizations to manage ESG data, 
+      measure impact, and drive informed decision-making across operations.`,
+      "keyHighlightsTitle": "Key highlights from the industry report:",
+      "highlights": [
+        "Centralized ESG data governance",
+        "Advanced impact analytics & forecasting",
+        "Cross-functional sustainability reporting",
+        "Risk and opportunity assessment frameworks"
+      ]
+    },
+    {
+      "id": 2,
+      imageSrc : awards2,
+
+      "heading": "GreenLedger Named a Leading ESG Technology Provider by Independent Analysts 2025",
+      "description": `GreenLedger was acknowledged for its robust ESG reporting and compliance capabilities, helping enterprises align sustainability goals with measurable business outcomes through a structured, scalable platform.`,
+      "keyHighlightsTitle": "Key highlights from the analyst review:",
+      "highlights": [
+        "Automated regulatory disclosures",
+        "Carbon and resource tracking tools",
+        "Scenario-based performance insights",
+        "Enterprise-ready audit trails"
+      ]
+    },
+    {
+      "id": 3,
+      imageSrc : awards3,
+
+      "heading": "ImpactIQ Recognized for Excellence in ESG Data & Impact Management Solutions",
+      "description": "This recognition highlights ImpactIQ's ability to simplify complex ESG workflows, empowering organizations to track performance, manage risks, and translate sustainability data into actionable insights.",
+      "keyHighlightsTitle": "Key highlights from the evaluation:",
+      "highlights": [
+        "End-to-end ESG lifecycle management",
+        "Stakeholder and value-chain engagement",
+        "Materiality and risk prioritization tools",
+        "Data-driven sustainability dashboards"
+      ]
+    }
+  ]
+  
+
+  export const CLIENT_REVIEW= [
+    {
+        id: "1",
+        profile: avatar1,
+        name: "Mr.VS Shivkumar",
+        title: "Much more easier now",
+        designation: "Manager - Systems & Certifications at JVS, India",
+        description:
+            "Being the Management Representative of my Company, I have to frequently face audits in all our Factories. We have been using SATTVA™️, the ESG tool from REDEFINE for the last 18 months and I find that so much of our audit preparation work is taken care of by this tool. Also documentation and followup on corrective action is much more easier now.",
+    },
+    {
+        id: "2",
+        profile: avatar2,
+        name: "Mr. Tony",
+        title:
+            "Experiencing better levels of safety and compliance in our factories it!",
+        designation:
+            "Managing Director at Bengal Hurricane Group, Bangladesh",
+        description:
+            "From the time that we have subscribed to SATTVA™ software of REDEFINE, we are experiencing better levels of safety and compliance in our factories. Earlier on we had to depend on many books, registers and xl sheets to capture data on EHS, but now with SATTVA™ all the paperwork has been eliminated and it is also easier for us to face audits as data is readily available. Due to this, the Safety, Environment and Compliance officers in our Factories can spend more time inside the factory and less time with documentation. SATTVA™ also generates automated reports and mails to key people in my Factory, thus keeping us all updated at all times.",
+    },
+    {
+        id: "3",
+        profile: avatar3,
+        name: "Mr.Baiju Chellemma",
+        title: "Adding value to work",
+        designation:
+            "General Manager at Jerash Garments and Fashion Manufacturing Co. Ltd, Jordan",
+        description:
+            "We have installed SATTVA™ the ESG software developed by REDEFINE. My Compliance Team and Safety Officers confirm that SATTVA™ software is adding value to their work by helping them capture relevant data pertaining to environment, safety and social aspects. SATTVA™ also automatically generates reports that I receive by mail, thus giving me constant updates on the performance of the EHS Team in my Factory and also the level of health and safety in my factory.",
+    },
+    {
+        id: "41",
+        profile: avatar4,
+        name: "Mr. Sanal Kumar",
+        title: "Really pleased with the work",
+        designation:
+            "Chairman &Managing Director Classic Fashion Apparel Industry Ltd Co, Jordan",
+        description:
+            `We are delighted to subscribe SATTVA at Classic Fashion Apparel Industry Ltd Co. as 
+            part of our ongoing commitment to sustainability and responsible business practices. 
+            REDEFINE's SATTVA- Safe and Sustainable digital platform will further strengthen our 
+            compliance and sustainability initiatives, 
+            driving greater efficiency and transparency across our operations.`,
+    },
+];
