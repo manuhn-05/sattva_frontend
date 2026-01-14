@@ -21,8 +21,7 @@ export default function Blog({h3Heading, text, card_bg}) {
                 <img src={item.image} alt="" />
                 <div className="content p-6">
                   <Link2 to={`/blog-detail/${item.id}`} className="text-lg hover:text-green-600 dark:text-white dark:hover:text-green-600 transition-all duration-500 ease-in-out font-medium">{item.title}</Link2>
-                  <p className="text-slate-500 mt-3">{item.description}</p>
-
+                  <p className="text-slate-500 mt-3 text-[0.6em] lg:text-[0.8em]">{item.description}</p>
                   <div className="mt-5">
                     <Link2 to={`/blog-detail/${item.id}`} className="btn btn-link hover:text-blue-600 dark:hover:text-blue-600 after:bg-blue-600 dark:text-white transition duration-500">Read More <i className="uil uil-arrow-right"></i></Link2>
                   </div>

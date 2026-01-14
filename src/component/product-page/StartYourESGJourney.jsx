@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import WhySattvaLogo from "../../assets/images/bg/laptop.png";
 
-
-
 const StartYourESGJourney = () => {
   return (
     <article className={`min-h-[calc(100vh-100px)] flex flex-col items-center p-4 md:py-32 bg-white dark:bg-[#0F172A]`}>
@@ -36,12 +34,11 @@ const StartYourESGJourney = () => {
             </div>
           </div>
           <div className="lg:col-span-6 md:col-span-6 mt-2 md:mt-20">
-            <h4 className="text-[0.8em] lg:text-[0.8em] lg:leading-normal leading-normal font-medium mb-4 position-relative text-white">Start your ESG journey with SATTVA</h4>
+            <h4 className="text-[0.8em] lg:text-[0.8em] lg:leading-normal leading-normal font-medium mb-4 position-relative text-slate-500 dark:text-white/70">Start your ESG journey with SATTVA</h4>
 
-            <p className="text-white/80 dark:text-white/50 mb-0 max-w-2xl text-[0.45em] my-[1.5%]">
-              Talk to our team to see how SATTVA simplifies ESG management across your organization.
-            </p>
-            <ul className='list-disc md:text-[0.45em] leading-8 text-white'>
+            <p className="text-white/80 dark:text-white/50 mb-0 max-w-2xl text-[0.45em] lg:text-[0.6em] my-[1.5%]">
+              Talk to our team to see how SATTVA simplifies ESG management across your organization.  </p>
+            <ul className='list-disc md:text-[0.45em] lg:text-[0.55em] leading-8 text-white/80'>
               <li>
                 Transition all your data from other systems to Plan A—done by our experts in weeks, not months.
 
@@ -64,7 +61,6 @@ const StartYourESGJourney = () => {
             </div>
           </div>
         </div>
-
       </div>
     </article>
   )

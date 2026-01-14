@@ -22,9 +22,8 @@ const AcademyInsights = () => {
                     initial={{ opacity: 0, x: -50 }}   // start invisible & lower
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 2, ease: "easeOut" }}
-                    className={`lg:text-[0.4em] text-center my-[3%]`}
-                >
-                    <h6 className='text-[0.7em] lg:text-[1em]'>Explore Blogs, News, Webinars and more from our ESG experts.</h6>
+                    className={`lg:text-[0.4em] text-center my-[3%]`}>
+                    <h6 className='text-[0.7em] text-slate-500 dark:text-white/70 lg:text-[1.35em]'>Explore Blogs, News, Webinars and more from our ESG experts.</h6>
                 </motion.div>
 
                 <section>
@@ -57,23 +56,19 @@ const AcademyInsights = () => {
 
                         </div>
                         <div className='border border-gray-300 shadow-xl rounded-xl'>
-                            <h4 className='text-[0.7em] p-[1%] text-justify lg:text-[0.8em] lg:leading-8 font-medium mb-2'>The significance of digital tools and digitalization in enhancing
+                            <h4 className='text-[0.7em] p-[1%] text-justify lg:text-[0.65em] lg:leading-8 font-medium mb-2'>The significance of digital tools and digitalization in enhancing
                                 sustainability within the fashion industry,
                                 particularly in the RMG sector.</h4>
                             <div className='border'>
                                 <img src={DigitalTools} alt="The Significance of Digital Tools" />
                             </div>
-                            <p className='text-[0.5em] md:text-[0.8em] lg:text-[0.45em] text-justify line-clamp-4 px-[1%]'>
+                            <p className='text-[0.5em] md:text-[0.8em] lg:text-[0.5em] text-justify line-clamp-4 px-[1%]'>
                                 In today's world, sustainability is not just a trend—it's a must. brands are seeking manufacturing partners who are serious about sustainability.
                                 Digital tools can help meet these needs by providing advanced solutions for achieving environmental and social goals.
                                 Here's how digitalization can lead the way in making apparel manufacturing more sustainable and socially responsible.
-
                             </p>
-
                         </div>
                     </div>
-
-
                 </section>
             </div>
         </article>
