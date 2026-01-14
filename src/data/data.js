@@ -35,6 +35,27 @@ import ProductAccident from "../assets/images/product/accident.png";
 import ProductChemical from "../assets/images/product/chemical.png";
 import ProductDocument from "../assets/images/product/document.png";
 
+import AcademyBlog1 from "../assets/images/academy-insights/academy-blog-1.webp";
+
+import AcademyBlog2 from "../assets/images/academy-insights/blog2.webp";
+import AcademyBlog3 from "../assets/images/academy-insights/blog2.webp";
+
+import  DummyBlog1 from "../assets/images/academy-insights/dummy/blog1.webp";
+import  DummyBlog2 from "../assets/images/academy-insights/dummy/blog2.webp";
+import  DummyBlog3 from "../assets/images/academy-insights/dummy/blog3.webp";
+import  DummyBlog4 from "../assets/images/academy-insights/dummy/bblogs4.webp";
+import  DummyBlog5 from "../assets/images/academy-insights/dummy/sustainability.webp";
+import  DummyBlog6 from "../assets/images/academy-insights/dummy/blogs6.webp";
+import  DummyBlog7 from "../assets/images/academy-insights/dummy/blog7.webp";
+import  DummyBlog8 from "../assets/images/academy-insights/dummy/blog8.webp";
+import  DummyBlog9 from "../assets/images/academy-insights/dummy/blog9.webp";
+import  DummyBlog10 from "../assets/images/academy-insights/dummy/blog10.webp";
+
+
+
+
+
+
 const DummyUser = 'https://imgs.search.brave.com/HHv4G66L_oIc59sq5PJHB191jYrN0Wh0OR9z0neEfec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIw/ODQ3NTE5Ni92ZWN0/b3IvdXNlci1pY29u/LXJlcHJlc2VudGlu/Zy1wcm9maWxlLWFj/Y291bnQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUpFOS1t/UEZiamRPMWR1aEZO/SE1TakZnZWtvQVdD/Q05WRnRCQW1LSDdS/TTg9'
 
 
@@ -533,3 +554,254 @@ export const productCardData6= {
 
   ]
 }
+
+
+export const ACADEMY_INSIGHTS_BLIGS = [
+  {
+    id : "1",
+    title : `Revolutionizing Supplier Factory Sustainability: The SATTVA Solution`,
+    updated : `May 14, 2024`,
+    timeToRead : `5 min read`,
+    imgSrc : AcademyBlog2,
+    },
+    {
+      id : "2",
+      title : `Sattva's Cutting-Edge Sustainability Apps Empower Sustainable Business Practices`,
+      updated : `May 14, 2024`,
+      timeToRead : `4 min read`,
+      imgSrc : AcademyBlog3,
+      },
+]
+
+export const ACADEMY_INSIGHTS_RESOURCES_DUMMY = [
+  {
+    id: "1",
+    type: "blogs",
+    title: "Driving Factory-Level Sustainability Through Smart ESG Technology",
+    updated: "June 02, 2024",
+    timeToRead: "6 min read",
+    imgSrc: AcademyBlog1,
+  },
+  {
+    id: "2",
+    type: "blogs",
+    title: "How Digital ESG Platforms Are Transforming Supplier Compliance",
+    updated: "June 10, 2024",
+    timeToRead: "5 min read",
+    imgSrc: DummyBlog2,
+  },
+  {
+    id: "3",
+    type: "case-studies",
+    title: "Reducing Supply Chain Emissions Through Data-Driven ESG Insights",
+    updated: "June 14, 2024",
+    timeToRead: "7 min read",
+    imgSrc: DummyBlog3,
+  },
+  {
+    id: "4",
+    type: "news",
+    title: "New ESG Regulations Push Enterprises Toward Smarter Reporting Tools",
+    updated: "June 18, 2024",
+    timeToRead: "3 min read",
+    imgSrc: DummyBlog4,
+  },
+  {
+    id: "5",
+    type: "blogs",
+    title: "From Data to Impact: Simplifying Sustainability Reporting for Enterprises",
+    updated: "June 20, 2024",
+    timeToRead: "6 min read",
+    imgSrc: DummyBlog5,
+  },
+  {
+    id: "6",
+    type: "webinars",
+    title: "Webinar: Turning Supplier ESG Data into Business Decisions",
+    updated: "June 25, 2024",
+    timeToRead: "45 min session",
+    imgSrc: DummyBlog6,
+  },
+  {
+    id: "7",
+    type: "blogs",
+    title: "Strengthening Supply Chains with Real-Time Sustainability Insights",
+    updated: "June 28, 2024",
+    timeToRead: "5 min read",
+    imgSrc: DummyBlog7,
+  },
+  {
+    id: "8",
+    type: "case-studies",
+    title: "How a Global Manufacturer Improved Supplier Transparency",
+    updated: "July 02, 2024",
+    timeToRead: "8 min read",
+    imgSrc: DummyBlog8,
+  },
+  {
+    id: "9",
+    type: "news",
+    title: "ESG Reporting Becomes a Board-Level Priority for Enterprises",
+    updated: "July 05, 2024",
+    timeToRead: "3 min read",
+    imgSrc: DummyBlog9,
+  },
+  {
+    id: "10",
+    type: "blogs",
+    title: "Building Responsible Supplier Ecosystems with ESG Intelligence",
+    updated: "July 08, 2024",
+    timeToRead: "6 min read",
+    imgSrc: DummyBlog10,
+  },
+  {
+    id: "11",
+    type: "events",
+    title: "Sustainability Leaders Roundtable: The Future of ESG Platforms",
+    updated: "July 12, 2024",
+    timeToRead: "Event",
+    imgSrc: DummyBlog1,
+  },
+  {
+    id: "12",
+    type: "blogs",
+    title: "Why Factory-Level ESG Data Is the Future of Manufacturing",
+    updated: "July 15, 2024",
+    timeToRead: "5 min read",
+    imgSrc: DummyBlog2,
+  },
+  {
+    id: "13",
+    type: "webinars",
+    title: "Webinar: Automating ESG Compliance Across Supplier Networks",
+    updated: "July 18, 2024",
+    timeToRead: "60 min session",
+    imgSrc: DummyBlog3,
+  },
+  {
+    id: "14",
+    type: "case-studies",
+    title: "Scaling ESG Reporting Across Multi-Country Supplier Operations",
+    updated: "July 22, 2024",
+    timeToRead: "7 min read",
+    imgSrc: DummyBlog4,
+  },
+  {
+    id: "15",
+    type: "blogs",
+    title: "Unlocking Sustainable Growth Through Smarter Supplier Assessments",
+    updated: "July 25, 2024",
+    timeToRead: "6 min read",
+    imgSrc: DummyBlog5,
+  },
+  {
+    id: "16",
+    type: "news",
+    title: "Enterprises Accelerate Adoption of ESG Analytics Tools",
+    updated: "July 29, 2024",
+    timeToRead: "3 min read",
+    imgSrc: DummyBlog6,
+  },
+  {
+    id: "17",
+    type: "blogs",
+    title: "Automating ESG Compliance Across Global Supplier Networks",
+    updated: "August 01, 2024",
+    timeToRead: "7 min read",
+    imgSrc: DummyBlog7,
+  },
+  {
+    id: "18",
+    type: "case-studies",
+    title: "Improving Supplier Performance with Sustainability Analytics",
+    updated: "August 04, 2024",
+    timeToRead: "6 min read",
+    imgSrc: DummyBlog8,
+  },
+  {
+    id: "19",
+    type: "events",
+    title: "ESG Innovation Summit: Technology Driving Sustainable Change",
+    updated: "August 07, 2024",
+    timeToRead: "Event",
+    imgSrc: DummyBlog9,
+  },
+  {
+    id: "20",
+    type: "blogs",
+    title: "How Sustainability Analytics Improve Supplier Trust",
+    updated: "August 10, 2024",
+    timeToRead: "5 min read",
+    imgSrc: DummyBlog10,
+  },
+  {
+    id: "21",
+    type: "news",
+    title: "Global Brands Tighten ESG Expectations for Suppliers",
+    updated: "August 13, 2024",
+    timeToRead: "4 min read",
+    imgSrc: DummyBlog1,
+  },
+  {
+    id: "22",
+    type: "webinars",
+    title: "Webinar: Building ESG-Ready Supply Chains for 2025",
+    updated: "August 16, 2024",
+    timeToRead: "50 min session",
+    imgSrc: DummyBlog2,
+  },
+  {
+    id: "23",
+    type: "blogs",
+    title: "The Role of ESG Platforms in Scaling Sustainable Businesses",
+    updated: "August 18, 2024",
+    timeToRead: "6 min read",
+    imgSrc: DummyBlog3,
+  },
+  {
+    id: "24",
+    type: "case-studies",
+    title: "How ESG Automation Reduced Compliance Risk for Enterprises",
+    updated: "August 21, 2024",
+    timeToRead: "7 min read",
+    imgSrc: DummyBlog4,
+  },
+  {
+    id: "25",
+    type: "events",
+    title: "Supplier Sustainability Workshop: From Data to Action",
+    updated: "August 25, 2024",
+    timeToRead: "Event",
+    imgSrc: DummyBlog5,
+  },
+];
+
+
+export const LIST_OF_RESOURCE_TYPE = [
+  {
+    id : "all",
+    title : "All Resources",
+
+  },
+  {
+    id : "blogs",
+    title : "Blogs",
+  },
+  {
+    id : "news",
+    title : "News",
+  },
+  {
+    id : "case-studies",
+    title : "Case Studies",
+  },
+  {
+    id : "webinars",
+    title : "Webinars",
+  },
+  {
+    id : "events",
+    title : "Events",
+  },
+
+]
