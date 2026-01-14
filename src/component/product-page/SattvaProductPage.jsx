@@ -16,7 +16,8 @@ const SattvaProductPage = () => {
       </div>
     <div className='md:text-[0.45em]'>
     {/* <Services isHeadingNeeded={false} /> */}
-    <div className='border-4 lg:min-h-[500px] w-[calc(100vw-80px)] lg:w-full overflow-hidden'>
+    <div className='lg:min-h-[500px] w-100vw lg:w-full overflow-hidden'>
+
       <ProductParallox />
     </div>
     </div>

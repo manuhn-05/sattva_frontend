@@ -7,32 +7,32 @@ const sections = [
     {
         id: 1,
         bg: "",
-        content: (<ProductCard className={`flex items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData1} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData1} />),
     },
     {
         id: 2,
         bg: "",
-        content: (<ProductCard className={`flex flex-row-reverse items-center justify-between mx-auto w-[75%] gap-[3%]`} {...productCardData2} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row-reverse items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData2} />),
     },
     {
         id: 3,
         bg: "",
-        content: (<ProductCard className={`flex items-center justify-between mx-auto w-[75%] gap-[3%]`} {...productCardData3} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData3} />),
     },
     {
         id: 4,
         bg: "",
-        content: (<ProductCard className={`flex flex-row-reverse items-center justify-between mx-auto w-[75%] gap-[3%]`} {...productCardData4} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row-reverse items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData4} />),
     },
     {
         id: 5,
         bg: "",
-        content: (<ProductCard className={`flex items-center justify-between mx-auto w-[75%] gap-[3%]`} {...productCardData5} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData5} />),
     },
     {
         id: 6,
         bg: "",
-        content: (<ProductCard className={`flex flex-row-reverse items-center justify-between mx-auto w-[75%] gap-[3%]`} {...productCardData6} />),
+        content: (<ProductCard className={`flex flex-col md:flex-row-reverse items-center justify-between mx-auto w-[95%] lg:w-[75%] gap-[3%]`} {...productCardData6} />),
     },
 ];
 
@@ -63,7 +63,7 @@ export default function ScrollSections() {
     }, []);
 
     return (
-        <div className="relative h-[calc(100vh-200px)] md:h-[calc(100vh-200px)] w-full overflow-hidden">
+        <div className="relative h-[calc(100vh-200px)] md:h-[calc(100vh-200px)] w-[90vw] overflow-hidden">
             <AnimatePresence mode="wait">
                 <motion.div
                     key={index}
