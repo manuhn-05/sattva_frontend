@@ -124,7 +124,10 @@ const BookADemo = () => {
 Sattva will use the contact information you share to communicate with you about our services, insights, and relevant offerings. You can unsubscribe from these communications at any time.
  To learn more about how we manage your preferences and protect your data, please review our <Link to={"/about"} className='underline '>Privacy Policy</Link>.
 </div>
-<div><button className='border border-gray-400 dark:text-white px-4 py-2 rounded-lg'>Submit</button></div>
+<div><button  className="px-6 py-2 text-[0.7em] lg:text-[0.85em] 
+                 rounded-lg border border-green-600 
+                 text-green-600 hover:bg-green-600 
+                 hover:text-white transition">Submit</button></div>
         </form>
       </section>
     </article>
